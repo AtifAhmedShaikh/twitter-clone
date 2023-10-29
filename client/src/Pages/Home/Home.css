@@ -1,0 +1,13 @@
+h1,
+h3 {
+  text-align: center;
+  color: white;
+}
+.tweets-container {
+  background-color: #15202b;
+  width: 100%;
+  padding: 0;
+  color: white;
+  height: 86vh;
+  overflow-y: scroll;
+}

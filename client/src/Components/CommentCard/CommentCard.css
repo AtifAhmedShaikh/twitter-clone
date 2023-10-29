@@ -1,0 +1,28 @@
+.comment-card {
+  max-width: 45%;
+  min-width: 45%;
+  padding: 0 7px;
+}
+.comment-card img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.comment-card .author-name {
+  font-size: 17px;
+}
+.comment-card .time-stamp {
+  font-size: 11px;
+}
+.comment-card p {
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .comment-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0 7px;
+  }
+}

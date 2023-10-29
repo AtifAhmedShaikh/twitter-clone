@@ -1,0 +1,50 @@
+.form-box {
+  height: 5rem;
+}
+.form-box:nth-last-child(2) {
+  background: red;
+}
+.form-control {
+  background-color: transparent;
+  min-height: 1rem;
+  height: 32px;
+  padding: 5px 10px;
+  width: 45vw;
+  color: white;
+}
+::placeholder {
+  color: gray !important;
+}
+.form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+}
+label {
+  margin: 0 !important;
+}
+.btn-wrapper {
+  width: 45vw;
+}
+.errormessage {
+  color: red;
+}
+.form-control.errorInput {
+  border: 1.6px solid red;
+}
+.form-box .bx{
+  position: absolute !important;
+  right: 5px;
+  bottom:30px;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+}
+@media (max-width: 576px) {
+  .form-control {
+    width: 75vw;
+  }
+  .btn-wrapper {
+    width: 75vw;
+  }
+}

@@ -1,0 +1,9 @@
+
+.user-container{
+    background-color: #15202b;
+    width: 100%;
+    padding: 0;
+    color: white;
+    height: 88vh;
+    overflow-y: scroll;
+}

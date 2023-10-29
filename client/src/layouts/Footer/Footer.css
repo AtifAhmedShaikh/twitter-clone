@@ -1,0 +1,41 @@
+.footer {
+  flex-direction: column;
+  position: fixed;
+  width: 4%;
+  height: 91vh;
+  left: 0;
+  bottom: 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid gray;
+}
+.footer button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  transition: 0.1s !important;
+}
+.footer button.active {
+  color: #1d9bf0;
+  transition: 0.1s !important;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    flex-direction: row;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #15202b;
+    border: none;
+    border-top: 2px solid gray;
+  }
+}

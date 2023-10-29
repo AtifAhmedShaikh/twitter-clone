@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  transition: 0.4s;
+}
+body {
+  overflow: hidden;
+  background-color: #15202b;
+  color: white;
+}
+.user-container {
+  height: 88vh;
+  overflow: scroll;
+}
+.search-container input {
+  width: 25vw;
+  background: var(--bs-gray-700);
+  color: white;
+}
+.error-message {
+  color: red;
+}
+.follow-button {
+  background-color: #0099cc;
+  padding: 2px 22px;
+  border-radius: 4px;
+  color: white;
+}
+.unfollow-button {
+  color: white;
+  border: 1px solid #273340;
+  background-color: #273340;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+.follow-button:hover {
+  background-color: #7792ac;
+}
+.offcanvas-body {
+  background: #273340;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 21px;
+}
+.offcanvas button {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.offcanvas button svg {
+  width: 2rem;
+}
+.offcanvas .copyButton {
+  background: #1f2327;
+  padding: 5px 16px;
+  border-radius: 14px;
+  color: white;
+  font-weight: bold;
+}
+.eidtProfileModal {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.eidtProfileModal .h4{
+  font-size:20px;
+}
+@media (max-width: 576px) {
+  .search-container input {
+    width: 85%;
+  }
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--bs-dark-text-emphas);
+}
+::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: transparent;
+}

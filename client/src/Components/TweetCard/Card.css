@@ -1,0 +1,40 @@
+.card {
+  min-width: 25vw;
+  max-width: 25vw;
+  padding: 0;
+  background: transparent;
+  color: white;
+  border: none;
+}
+.card .profileImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.card .username {
+  font-size: 12px;
+}
+.card button {
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 14px;
+}
+.card button:active {
+  transform: scale(0.8);
+}
+.card i {
+  font-size: 20px;
+}
+.time-stamp {
+  font-size: 13px;
+}
+@media (max-width: 576px) {
+  .card {
+    padding: 0 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+}

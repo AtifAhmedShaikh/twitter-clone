@@ -1,0 +1,41 @@
+header {
+  padding: 10px 0;
+  background-color: #15202b;
+  border-bottom: 1px solid gray;
+  position: relative;
+  z-index: 20;
+}
+header img,
+header svg {
+  width: 25px;
+  height: 25px;
+}
+header > div {
+  padding: 0 20px;
+}
+header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+header button {
+  width: max-content;
+  padding: 5px 10px;
+}
+header button.btn {
+  color: white;
+  font-size: 14px;
+}
+header button.btn:hover {
+  color: var(--bs-cyan);
+}
+.back-button-wrapper {
+  position: relative;
+  left: 0;
+  color: white;
+}
+
+.back-button-wrapper button {
+  background-color: transparent;
+  color: white;
+}
